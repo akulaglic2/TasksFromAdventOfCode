@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "test/1.0.0": {
+        "dependencies": {
+          "NuGet.Frameworks": "5.9.1"
+        },
+        "runtime": {
+          "test.dll": {}
+        }
+      },
+      "NuGet.Frameworks/5.9.1": {
+        "runtime": {
+          "lib/netstandard2.0/NuGet.Frameworks.dll": {
+            "assemblyVersion": "5.9.1.11",
+            "fileVersion": "5.9.1.11"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "test/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NuGet.Frameworks/5.9.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LuJA875MQpPMdik6KUsDUnEDSXWX+T/sExFikA0A5zGFkEW37weP5b6NxljWlrw4UNOWTgmTeumm802Jwz20sw==",
+      "path": "nuget.frameworks/5.9.1",
+      "hashPath": "nuget.frameworks.5.9.1.nupkg.sha512"
+    }
+  }
+}
